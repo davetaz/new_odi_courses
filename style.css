@@ -111,11 +111,15 @@ body {
 }
 #details_box {
     display: inline-block;
-    top: 20px;
+    top: 140px;
     position: absolute;
     left: 720px;
     background-color: #aaa;
     padding: 12px;
     line-height: 1.5em;
     min-width: 320px;
+}
+.course_filter {
+  text-decoration: underline;
+  cursor: pointer;
 }

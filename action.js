@@ -38,11 +38,15 @@ function processListeners() {
 	);
 	$("div.course_filter").hover(
 		function() {
-			var id = this.id;
-   			$('.hex2').css("opacity",0.5);
-   			$('.'+id).parent().css("opacity",1);
+			if (!filter_on) {
+				var id = this.id;
+   				$('.hex2').css("opacity",0.5);
+   				$('.'+id).parent().css("opacity",1);
+   			}
     	}, function() {
-      		$('.hex2').css("opacity",1);
+    		if (!filter_on) {
+      			$('.hex2').css("opacity",1);
+      		}
 	  	}
 	);
 }

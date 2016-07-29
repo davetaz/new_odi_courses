@@ -1,0 +1,121 @@
+body {
+  font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+}
+.hex2 {
+  width: 100px;
+  height: 100px;
+}
+.intro {
+  background-color: #91dfff; 
+}
+.management {
+  background-color: #ec8989;
+}
+.publishing {
+  background-color: #9ee4af;
+}
+.storytelling {
+  background-color: #dfaad4;
+}
+.business {
+  background-color: #ffc8a3;
+}
+.leadership {
+  background-color: #d5d5d5;
+}
+.analysis {
+  background-color: #f6a1ce;
+}
+.hexagon-wrapper {
+  text-align: center;
+  margin: -7px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.hexagon {
+  height: 100%;
+  width: calc(100% * 0.57735);
+  display: inline-block;
+}
+.hexagon:before {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotateZ(60deg);
+}
+.hexagon:after {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotateZ(-60deg);
+}
+.even {
+    display: inline-block;
+    top: 52px;
+}
+#hex_row {
+  margin-top: 7px;
+  margin-left: 10px;
+}
+.no {
+  opacity: 0;
+}
+.hex3 {
+  width: 40px;
+  height: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.hex3 h4 {
+  font-size:0.8em;
+  position: absolute;
+  z-index: 2000;
+  top: 80%;
+  width: 80px;
+  font-weight: lighter;
+  left: -20px;
+}
+.hex2 h4 {
+  font-size:0.8em;
+  position: absolute;
+  z-index: 2000;
+  top: 40%;
+  width: 100px;
+  font-weight: lighter;
+  left: 0px;
+}
+.hex2 img {
+  position: absolute;
+  z-index: 2000;
+  top: 6%;
+  height: 44px;
+  left: 25%;
+}
+#hex_container {
+  width: 680px;
+}
+#hex_key {
+  text-align: center;
+  width: 100%;
+  top: -30px;
+  position: relative;
+}
+#details_box {
+    display: inline-block;
+    top: 20px;
+    position: absolute;
+    left: 720px;
+    background-color: #aaa;
+    padding: 12px;
+    line-height: 1.5em;
+    min-width: 320px;
+}

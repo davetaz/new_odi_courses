@@ -30,7 +30,6 @@ function processListeners() {
 		function() {
 			var names = this.className;
 			var type = names.split(' ')[2];
-			//console.log(type);
    			$('.hex2').css("opacity",0.5);
    			$('.'+type).parent().css("opacity",1);
     	}, function() {
@@ -40,8 +39,6 @@ function processListeners() {
 	$("div.course_filter").hover(
 		function() {
 			var id = this.id;
-			console.log(id);
-			//console.log(type);
    			$('.hex2').css("opacity",0.5);
    			$('.'+id).parent().css("opacity",1);
     	}, function() {

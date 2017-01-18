@@ -12,7 +12,7 @@ function processListeners() {
 				$('.course_filter').css("display","block");
 				filter_on = false;
 			} else {
-				$('.hex2').css("opacity",0.5);
+				$('.hex2').css("opacity",0.25);
 				$(this).parent().css("opacity",1);
 				$('.course_filter').css("display","none");
 			

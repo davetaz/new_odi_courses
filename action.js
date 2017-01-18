@@ -30,7 +30,7 @@ function processListeners() {
 		function() {
 			var names = this.className;
 			var type = names.split(' ')[2];
-   			$('.hex2').css("opacity",0.5);
+   			$('.hex2').css("opacity",0.25);
    			$('.'+type).parent().css("opacity",1);
     	}, function() {
       		$('.hex2').css("opacity",1);
@@ -40,7 +40,7 @@ function processListeners() {
 		function() {
 			if (!filter_on) {
 				var id = this.id;
-   				$('.hex2').css("opacity",0.5);
+   				$('.hex2').css("opacity",0.25);
    				$('.'+id).parent().css("opacity",1);
    			}
     	}, function() {

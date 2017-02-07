@@ -6,31 +6,25 @@ body {
   height: 100px;
 }
 .intro {
-  //background-color: #91dfff; 
-  background-color: #00b6ff; 
+  background-color: #91dfff; 
 }
 .management {
-  //background-color: #ec8989;
-  background-color: #e6007c;
+  background-color: #ec8989;
 }
 .publishing {
-  //background-color: #9ee4af;
-  background-color: #0dbc37;
+  background-color: #9ee4af;
 }
 .storytelling {
   background-color: #dfaad4;
 }
 .business {
-  //background-color: #ffc8a3;
-  background-color: #ff6700;
+  background-color: #ffc8a3;
 }
 .leadership {
-  //background-color: #d5d5d5;
-  background-color: #f9bc26;
+  background-color: #d5d5d5;
 }
 .analysis {
-  //background-color: #f6a1ce;
-  background-color: #722ea5;
+  background-color: #f6a1ce;
 }
 .hexagon-wrapper {
   text-align: center;
@@ -94,20 +88,17 @@ body {
   font-size:0.8em;
   position: absolute;
   z-index: 2000;
-  top: 38%;
+  top: 40%;
   width: 100px;
   font-weight: lighter;
   left: 0px;
-  font-weight: 200;
-  color: white;
-  letter-spacing: 0.5px;
 }
 .hex2 img {
   position: absolute;
   z-index: 2000;
-  top: 6%;
-  height: 44px;
-  left: 25%;
+  top: 15%;
+  height: 68px;
+  left: 12%;
 }
 #hex_container {
   width: 680px;

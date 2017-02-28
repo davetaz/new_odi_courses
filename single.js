@@ -37,7 +37,7 @@ function getBorders(id) {
     borders["biw"] = [7,-155,125,315,5];
     borders["plod"] = [-83,-260,310,265,10];
     borders["odpol"] = [-173,-313,390,165,20];
-    borders["ie"] = [-350,-160,390,300,20];
+    borders["ie"] = [-265,-200,390,300,20];
     return borders[id];
 }
  
